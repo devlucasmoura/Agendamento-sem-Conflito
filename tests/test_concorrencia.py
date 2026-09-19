@@ -34,3 +34,4 @@ def test_vinte_requisicoes_simultaneas_apenas_uma_grava(live_server):
 
     assert criadas == 1
     assert conflitos == TOTAL_REQUISICOES - 1
+    
