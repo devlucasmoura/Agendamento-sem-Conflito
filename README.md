@@ -59,6 +59,13 @@ docker compose exec api pytest -v
 Inclui teste de concorrencia: 20 threads disparam a mesma reserva
 simultaneamente; exatamente 1 grava e 19 recebem 409.
 
+## Conflito barrado na prática
+
+![Requisição sobreposta recebendo 409](docs/erro409.png)
+
+Reserva das 10h às 11h já existente; nova tentativa no mesmo horário recebe
+409 do banco, não de um `if` no código.
+
 ## Proximos passos
 
 - Endpoint de disponibilidade (`GET /recursos/{id}/disponibilidade?data=`)
