@@ -251,15 +251,6 @@ constraint: sem_sobreposicao
 
 ---
 
-## Proximos passos
-
-- [ ] `GET /recursos/{id}/disponibilidade?data=` — horarios livres do dia
-- [ ] Autenticacao por token (JWT)
-- [ ] Regra de antecedencia minima para cancelamento
-- [ ] Reserva recorrente (semanal, mensal)
-
----
-
 ## Licenca
 
 MIT
