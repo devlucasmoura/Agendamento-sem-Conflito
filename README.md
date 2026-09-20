@@ -254,3 +254,8 @@ constraint: sem_sobreposicao
 ## Licenca
 
 MIT
+
+---
+
+## Autor
+Lucas Moura
