@@ -255,7 +255,5 @@ constraint: sem_sobreposicao
 
 MIT
 
----
-
 ## Autor
 Lucas Moura
